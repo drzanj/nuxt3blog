@@ -2,11 +2,11 @@
 const params = useRoute().params;
 
 useHead({
-  title: `${params.slug}` ,
+   title: `${params.slug}`,
   meta: [
     {
       name: "description",
-      content: `output`,
+      content: `${params.slug}`,
     },
   ],
 });
