@@ -2,7 +2,7 @@
 const params = useRoute().params;
 
 useHead({
-  title: `${params.slug}`,
+  title: `${params.slug}`.rendered ,
   meta: [
     {
       name: "description",
