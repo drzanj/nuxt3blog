@@ -6,7 +6,7 @@ output = `${params.slug}`;
 output = output.replace(/ +/g, '-');
 output = output.replace(/[^\w ]+/g, '');
   
-  title: `${params.slug}` ,
+  title: `output` ,
   meta: [
     {
       name: "description",
