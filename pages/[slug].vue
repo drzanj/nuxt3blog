@@ -21,11 +21,7 @@ redirect ();
 }
                               
       }
-      
-                           
-    
-           
-  
+
 </script>
 <template>
   <section class="container blog py-10 sm:py-16">
