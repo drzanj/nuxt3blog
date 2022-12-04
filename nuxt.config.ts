@@ -4,8 +4,8 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-16",
       viewport: "width=device-width,initial-scale=1",
-      title: "Elon's Blog",
-      titleTemplate: "%s - Elon's Blog",
+      title: "Sports Blog",
+      titleTemplate: "%s - Sports Blog",
       meta: [{ name: "description", content: "Elon's awesome blog" }],
     },
   },
