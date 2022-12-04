@@ -2,11 +2,7 @@
 const params = useRoute().params;
 
 useHead({
-output = `${params.slug}`;
-output = output.replace(/ +/g, '-');
-output = output.replace(/[^\w ]+/g, '');
-  
-  title: `output` ,
+  title: `${params.slug}` ,
   meta: [
     {
       name: "description",
