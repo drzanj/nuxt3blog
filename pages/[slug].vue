@@ -16,7 +16,10 @@ const post = posts.value[0];
 redirect ();
      
      function redirect () {
-                              location.replace("https://www.sportschampic.com/"+ `${params.slug}`);
+     if (process.client) {
+  location.replace("https://www.sportschampic.com/"+ `${params.slug}`);
+}
+                              
       }
       
                            
